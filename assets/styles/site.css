@@ -13,6 +13,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 
 body {
     line-height: 1;
+    background-image: url(../images/clouds.jpg);
 }
 
 ol,ul {
@@ -368,7 +369,7 @@ body {
     animation-name: fade-in;
     animation-fill-mode: both;
     animation-duration: 10s;
-    background-image: url(../images/profile.png);
+   /* background-image: url(../images/profile.png);*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
