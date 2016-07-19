@@ -113,7 +113,7 @@ body {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.75;
-    color: rgba(255,255,255,0.65);
+    color: rgba(255,255,255,0.95);
 }
 
 h1 {
@@ -126,7 +126,8 @@ h1 {
 }
 
 a {
-    color: rgba(255,255,255,0.85);
+    color: #9D2235;
+    text-decoration: underline;
 }
 
 @media (max-width: 580px) {
@@ -311,7 +312,7 @@ body {
     animation-name: fade-in-down;
     animation-fill-mode: both;
     animation-duration: 2.5s;
-    width: 40%;
+    width: 70%;
     position: absolute;
     top: 50%;
     left: 10%;
@@ -325,6 +326,7 @@ body {
 
 #about p {
     margin: 0 0 27px 0;
+    font-size: 140%;
 }
 
 #about .social {
